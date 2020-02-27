@@ -13,5 +13,5 @@ exports.addRSVP = function(request, response) {
 	var rsvpEmail = request.body.rsvpEmail;
 	console.log(rsvpEmail);
 	data.rsvp.push(rsvpEmail);
-	response.send(rsvipEmail);
+	response.send(rsvpEmail);
 };
