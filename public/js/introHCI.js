@@ -39,7 +39,7 @@ function initRSVPForm() {
 	});
 
 function postCallback(res) {
-	alert("RSVP form successfully submitted!")
+	alert("RSVP form successfully submitted!");
 	$('#rsvpEmail').val('');
 }
 }
